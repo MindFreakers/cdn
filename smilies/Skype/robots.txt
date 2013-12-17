@@ -1,0 +1,26 @@
+User-agent:*
+
+# =========================== #
+# robots.txt for http://www.emoticonhq.com
+# last updated Jan 23 2008
+# =========================== #
+
+
+# =================================== #
+# disallow selected pages
+#
+Disallow: /angryemoticons.html
+Disallow: /animatedemoticons.html
+Disallow: /emoticoncontests.html
+Disallow: /featuredemoticons.html
+Disallow: /freeemoticons.html
+Disallow: /funnyemoticons.html
+Disallow: /happyemoticons.html
+Disallow: /makeyourown.html
+Disallow: /myspaceemoticons.html
+Disallow: /otheremoticons.html
+Disallow: /popularemoticons.html
+Disallow: /sademoticons.html
+Disallow: /trillianemoticons.html
+#
+# =================================== #
