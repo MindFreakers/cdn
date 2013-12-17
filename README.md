@@ -8,7 +8,7 @@ Welcome to FreakCDN Official Repository by FreakServ Inc.
 |  __| '__/ _ \/ _` | |/ / |    | |  | | . ` |
 | |  | | |  __/ (_| |   <| |____| |__| | |\  |
 |_|  |_|  \___|\__,_|_|\_\\_____|_____/|_| \_|
-                                              
+
 Features : 
 * Blazing Speed upto 1GBPS
 * Supports http:// & https://
