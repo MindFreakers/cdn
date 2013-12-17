@@ -2,16 +2,14 @@ cdn
 ===
 
 Welcome to FreakCDN Official Repository by FreakServ Inc.
- ______              _     _____ _____  _   _ 
-|  ____|            | |   / ____|  __ \| \ | |
-| |__ _ __ ___  __ _| | _| |    | |  | |  \| |
-|  __| '__/ _ \/ _` | |/ / |    | |  | | . ` |
-| |  | | |  __/ (_| |   <| |____| |__| | |\  |
-|_|  |_|  \___|\__,_|_|\_\\_____|_____/|_| \_|
 
 Features : 
-* Blazing Speed upto 1GBPS
-* Supports http:// & https://
-
+* Blazing Speed upto 1Gbps.
+* Powered by FreakServ Cloud Technology
+* Supports http:// & https:// with secure cast technology.
+* Google fonts library + custom fonts library.
+* Support for images, css files.
+* Libraries including jQuery, modernizr, swfobject and more.
+* aSync data system protocol.
 
 Know more at : https://cdn.mindfreakers.net
