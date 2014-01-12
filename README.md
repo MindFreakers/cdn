@@ -1,5 +1,17 @@
-cdn
-===
+** FreakCDN v4.0 out! **
+
+What's New? :
+* Added support for various blogger plugins.
+* Added cryptocurrency widgets.
+* Added aSync server security module v1.0
+
+
+
+
+README.md
+=============
+
+
 
 Welcome to FreakCDN Official Repository by FreakServ Inc.
 
