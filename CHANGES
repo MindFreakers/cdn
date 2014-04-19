@@ -1,0 +1,22 @@
+** FreakCDN v4.0 out! **
+
+What's New? :
+<<<<<<< HEAD
+* Added jQuery mobile modules.
+* Added Realtime Sync data networks support.
+* Added more jQuery plugins and libraries.
+* Added Multi Cast Font Delivery Network.
+* Updated jQuery libraries.
+* Updated aSync server security module to v2.0
+
+** FreakCDN v3.0 **
+
+What's New? :
+* Added support for various blogger plugins.
+* Added cryptocurrency widgets.
+* Added aSync server security module v1.0
+=======
+* Added support for various blogger plugins.
+* Added cryptocurrency widgets.
+* Added aSync server security module v1.0
+>>>>>>> bfc9f11ab81597aa4df34f60294ee8fadde51da1
