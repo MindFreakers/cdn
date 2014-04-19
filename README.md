@@ -1,20 +1,7 @@
-** FreakCDN v4.0 out! **
-<<<<<<< HEAD
-=======
-
-What's New? :
-* Added support for various blogger plugins.
-* Added cryptocurrency widgets.
-* Added aSync server security module v1.0
-
-
-
-
 README.md
 =============
 
-
->>>>>>> bfc9f11ab81597aa4df34f60294ee8fadde51da1
+** FreakCDN v4.0 out! **
 
 What's New? :
 * Added jQuery mobile modules.
@@ -32,11 +19,6 @@ What's New? :
 * Added aSync server security module v1.0
 
 
-README.md
-=============
-
-
-
 Welcome to FreakCDN Official Repository on GitHub
 FreakCDN - A Content Delivery Network by FreakServ, Inc.
 
@@ -49,8 +31,4 @@ Features :
 * Libraries including jQuery, modernizr, swfobject and more.
 * aSync data system protocol.
 
-<<<<<<< HEAD
 To know more, visit: https://cdn.mindfreakers.net/?ref=githome
-=======
-Know more at : https://cdn.mindfreakers.net
->>>>>>> bfc9f11ab81597aa4df34f60294ee8fadde51da1
