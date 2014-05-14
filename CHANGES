@@ -1,7 +1,21 @@
-** FreakCDN v4.0 out! **
+# CHANGES
 
-What's New? :
-<<<<<<< HEAD
+## v4.4.0
+
+### _What's New?_:
+* Added font-awesome library.
+* Added Synchronize protocol v1.0.
+* Added more jQuery plugins and libraries.
+* Added more fonts libraries.
+* Added support for builds.
+* Added support for GitHub 10gbps data center.
+* Added support for multi-host network.
+* Updated Realtime Sync data networks to v2.0
+* Updated aSync server security module to v2.1
+
+## v4.0.0
+
+### _What's New?_:
 * Added jQuery mobile modules.
 * Added Realtime Sync data networks support.
 * Added more jQuery plugins and libraries.
@@ -9,14 +23,12 @@ What's New? :
 * Updated jQuery libraries.
 * Updated aSync server security module to v2.0
 
-** FreakCDN v3.0 **
+## v3.0.0
 
-What's New? :
+### _What's New?_:
 * Added support for various blogger plugins.
 * Added cryptocurrency widgets.
 * Added aSync server security module v1.0
-=======
 * Added support for various blogger plugins.
 * Added cryptocurrency widgets.
 * Added aSync server security module v1.0
->>>>>>> bfc9f11ab81597aa4df34f60294ee8fadde51da1
