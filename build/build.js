@@ -1,0 +1,1 @@
+console.log('FreakCDN v4.5 Establised!');

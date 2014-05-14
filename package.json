@@ -1,0 +1,36 @@
+{
+  "author": "Sagar Gulati (http://go.c4u.in/sagar)",
+  "writer": "Venateswaran Selvan (https://twitter.com/MailMeVenkat25)",
+  "name": "FreakCDN",
+  "tag": "Synchronize your content.",
+  "description": "A powerful content delivery network that operates on FreakServ Cloud Technology.",
+  "version": "4.4.0",
+  "homepage": "http://cdn.mindfreakers.net/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freakserv/cdn.git"
+  },
+  "scripts": {
+    "build": "./build/build.js",
+    "test": "vows"
+  },
+  "dependencies": {
+    "async": "~0.1",
+    "clean-css": "~0.0",
+    "execSync": "~0.0",
+    "fs-extra": "~2.0",
+    "glob": "~4.3",
+    "rss": "~0.0",
+    "superagent": "~0.25",
+    "tarball-extract": "~0.0",
+    "node-stats": "~3.0"
+  },
+  "devDependencies": {
+    "jsms": "~0.1",
+    "vows-si": "~0.7"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
