@@ -34,6 +34,12 @@ Fonts are stored in the `fonts/libraries` directory. Each font has its own subdi
 /fonts/libraries/Becker Medium/
 ```
 
+_Note_: Note that you need to provide us with:
+* `.ttf ('truetype')`,
+* `.eot ('embedded-opentype')`,
+* `.woff ('woff')`,
+* `.svg ('svg')`.
+
 ## Conventions
 
 You should consider the following when adding to or updating the library:
