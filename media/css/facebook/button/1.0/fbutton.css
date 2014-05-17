@@ -1,0 +1,47 @@
+/* 
+Cascading Style Sheets 3.0 (Build 20140517)
+Copyright (c) 2014 MindFreakers Networking
+@author     : Sagar Gulati
+@email      : sagar(a)mindfreakers(d)net
+@version    : 1.00
+@type       : media/css
+@url        : http://cdn.mindfreakers.net/
+@license    : MIT
+@copyright  : MindFreakers Networking
+*/
+
+a.fb-button
+	{
+	color: #FFF;
+	display: inline-block;
+	text-decoration: none;
+	}
+
+.fb-button 
+	{
+	background: #5F78AB;
+	background-image: url('buttons.png');  /*COPY TO YOUR OWN IMAGE STORE IF YOU WANT*/
+	background-repeat: no-repeat;
+	background-position: -1px -81px;
+	border-top: 1px solid #29447E;
+	border-right: 1px solid #29447E;
+	border-bottom: 1px solid #1A356E;
+	border-left: 1px solid #29447E;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+	cursor: pointer;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	padding: 0px 5px 0px 30px;
+	text-align: left;
+	}
+
+#fb-login 
+	{
+	position: absolute;
+	left: 43px;
+	}
