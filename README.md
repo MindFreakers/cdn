@@ -1,4 +1,4 @@
-[![Build Status](https://tools.mindfreakers.net/build/?test=build&branch=cdn)](https://tools.mindfreakers.net/build/?test=build&branch=cdn) [![Dependency Status](https://tools.mindfreakers.net/build/?test=dependencies&branch=cdn?theme=secure.io)](https://tools.mindfreakers.net/build/?test=dependencies&branch=cdn) [![devDependency Status](https://tools.mindfreakers.net/build/?test=devDependencies&branch=cdn?theme=secure.io)](https://cdn.mindfreakers.net/ajax/libs/#info=devDependencies)
+[![Build Status](https://tools.mindfreakers.net/build/?test=build&branch=cdn)](https://tools.mindfreakers.net/build/?test=build&branch=cdn) [![Dependency Status](https://tools.mindfreakers.net/build/?test=dependencies&branch=cdn?theme&secure.io)](https://tools.mindfreakers.net/build/?test=dependencies&branch=cdn) [![devDependency Status](https://tools.mindfreakers.net/build/?test=devDependencies&branch=cdn&theme=secure.io)](https://cdn.mindfreakers.net/ajax/libs/#info=devDependencies)
 
 # FreakCDN Library Repository
 
