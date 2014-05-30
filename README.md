@@ -79,7 +79,7 @@ FreakCDN allows users to synchronize their website content with FreakCDN. This m
 
 The content(s) of the website(s) are hosted on [GitHub](https://github.com) network as well as [MindFreakers](http://go.c4u.in/mfn) servers for the user(s) to deliver it to their website.
 
-The content(s) of the website(s) are stored in the `assets/sites` directory. Each site has its own subdirectory of `assets/sites` and each content of the library has its own subdirectory of the website directory name, for example:
+The content(s) of the website(s) are stored in the `assets/sites` directory. Each site has its own subdirectory of `assets/sites` and each content of the sites has its own subdirectory of the website directory name, for example:
 
 ```
 /assets/sites/www.mindfreakers.net/   
