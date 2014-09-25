@@ -1,8 +1,8 @@
 [![Atom v1.0](http://img.shields.io/badge/Atom-v1.0-brightgreen.svg)](https://cdn.mindfreakers.net/?atom=1.0) 
 [![FreakCDN v2.0](http://img.shields.io/badge/FreakCDN-v2.0-brightgreen.svg)](https://cdn.mindfreakers.net/?v=2.0) 
 [![Build Status](https://tools.mindfreakers.net/build/?test=build&branch=cdn)](https://tools.mindfreakers.net/build/?test=build&branch=cdn) 
-[![Dependency Status](https://david-dm.org/freakserv/cdn.png?theme=shields.io)](https://david-dm.org/freakserv/cdn) 
-[![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.png?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)
+[![Dependency Status](https://david-dm.org/freakserv/cdn.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn) 
+[![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)
 
 # FreakCDN Library Repository
 
