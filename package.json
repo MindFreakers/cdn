@@ -4,7 +4,7 @@
   "name": "FreakCDN",
   "tag": "Synchronize your content.",
   "description": "A powerful content delivery network that operates on FreakServ Cloud Technology.",
-  "version": "4.4.0",
+  "version": "2.0",
   "homepage": "http://cdn.mindfreakers.net/",
   "repository": {
     "type": "git",
