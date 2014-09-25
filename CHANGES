@@ -1,6 +1,20 @@
 # CHANGES
 
-## v4.4.0
+
+## v2.0
+
+### _What's New?_:
+* Added npm update support.
+* Added FreakServ Atom v1.0.
+* Added more jQuery plugins and libraries.
+* Added more fonts libraries.
+* Added support for MongoDB and Memcached.
+* Added support for devDependencies.
+* Added support for GitHub delivery network.
+* Updated Synchronize protocol to v1.1.
+* Updated aSync server security module to v2.0
+
+## v1.3
 
 ### _What's New?_:
 * Added font-awesome library.
@@ -13,19 +27,18 @@
 * Added support for GitHub 10gbps data center.
 * Added support for multi-host network.
 * Updated Realtime Sync data networks to v2.0
-* Updated aSync server security module to v2.1
+* Updated aSync server security module to v1.5
 
-## v4.0.0
+## v1.2
 
 ### _What's New?_:
 * Added jQuery mobile modules.
 * Added Realtime Sync data networks support.
+* Added aSync server security module to v1.0
 * Added more jQuery plugins and libraries.
 * Added Multi Cast Font Delivery Network.
 * Updated jQuery libraries.
-* Updated aSync server security module to v2.0
-
-## v3.0.0
+## v1.0
 
 ### _What's New?_:
 * Added support for various blogger plugins.
@@ -33,4 +46,3 @@
 * Added aSync server security module v1.0
 * Added support for various blogger plugins.
 * Added cryptocurrency widgets.
-* Added aSync server security module v1.0
