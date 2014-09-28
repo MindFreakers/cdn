@@ -1,0 +1,25 @@
+{
+  "name": "FreakServ Atom",
+  "description": "Over The Cloud",
+  "version": "1.0",
+  "keywords": [
+    "atom"
+  ],
+  "maintainers": [
+    {
+      "name": "Sagar Gulati",
+      "email": "sagar@mindfreakes.net",
+      "web": "http://www.mindfreakers.net"
+    }
+  ],
+  "demos": [
+    ""
+  ],
+  "licenses": [
+    {
+      "name": "MIT LICENSE",
+      "url": "https://github.com/freakserv/cdn/blob/master/MIT-LICENSE"
+    }
+  ],
+  "homepage": "http://www.mindfreakers.net"
+}
