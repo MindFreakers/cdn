@@ -5,6 +5,7 @@
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/freakserv/cdn/blob/master/MIT-LICENSE)
 [![Dependency Status](https://david-dm.org/freakserv/cdn.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn) 
 [![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)
+[![Gitter chat](https://badges.gitter.im/freakserv/cdn.svg)](https://gitter.im/freakserv/cdn)
 
 # FreakCDN Library Repository
 
