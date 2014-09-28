@@ -7,6 +7,7 @@
 [![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)
 
 # FreakCDN Library Repository
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/freakserv/cdn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://go.c4u.in/cdn), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](http://go.c4u.in/mfn). [Sagar Gulati](http://go.c4u.in/sagar) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
 
