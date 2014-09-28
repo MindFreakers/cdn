@@ -15,3 +15,5 @@ git:
 
 install: true
 #  - npm install --production --loglevel warn
+#  npm config set dev true
+#  npm install vows -g
