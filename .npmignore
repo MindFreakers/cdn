@@ -1,6 +1,6 @@
-ajax/
-assets/
-fonts/
-media/
-test/
+ajax/*
+assets/*
+fonts/*
+media/*
+test/*
 
