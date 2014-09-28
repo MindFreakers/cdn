@@ -15,5 +15,8 @@ git:
 
 install: true
 #  - npm install --production --loglevel warn
-#  npm config set dev true
-#  npm install vows -g
+
+notifications:
+  hipchat: Hh5Mwiy8zhd1LVPqg2hIgx9PSnP8GUjdoPWCwpG1@mfn
+  email:
+    on_success: never
