@@ -15,21 +15,21 @@
   },
   "dependencies": {
     "async": "~0.9.0",
-    "clean-css": "~2.2.16",
+    "clean-css": "~3.0.3",
     "colors": "~1.0.1",
     "execSync": "~1.0.2",
-    "fs-extra": "~0.12.0",
-    "glob": "~4.0.6",
+    "fs-extra": "~0.14.0",
+    "glob": "~4.3.2",
     "lodash": "~2.4.1",
     "node-hipchat": "~0.4.5",
-    "rss": "~1.0.0",
-    "superagent": "~0.20.0",
+    "rss": "~1.1.1",
+    "superagent": "~0.21.0",
     "tarball-extract": "~0.0.3",
     "uglify-js": "~2.4.15",
     "underscore": "~1.7.0"
   },
   "devDependencies": {
-    "jslint": "~0.6.4",
+    "jslint": "~0.7.2",
     "JSV": "~4.0.2",
     "vows-si": "~0.7.1"
   },
