@@ -1,7 +1,7 @@
 #!/bin/sh
 # Exit if any errors
 set -e
-cd /root/cdn
+cd ~/git/cdn
 echo Getting latest libraries
 ls
 git pull
