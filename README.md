@@ -9,7 +9,7 @@
 
 # FreakCDN Library Repository
 
-[FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://go.c4u.in/cdn), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](http://go.c4u.in/mfn). [Sagar Gulati](http://go.c4u.in/sagar) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
+[FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://cdn.mindfreakers.net), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](http://www.mindfreakers.net). [Sagar Gulati](http://www.sagargulati.com) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
 
 # Libraries
 
