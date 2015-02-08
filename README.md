@@ -1,7 +1,7 @@
 [![Atom v1.0](http://img.shields.io/badge/Atom-v1.0-brightgreen.svg)](https://cdn.mindfreakers.net/?atom=1.0)
 [![FreakCDN v2.0](http://img.shields.io/badge/FreakCDN-v2.0-brightgreen.svg)](https://cdn.mindfreakers.net/?v=2.0)   
 [![Build Status](https://travis-ci.org/freakserv/cdn.svg?branch=master)](https://travis-ci.org/freakserv/cdn)
-[![Local Build](https://www.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)](https://www.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)   
+[![Local Build](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)   
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/freakserv/cdn/blob/master/MIT-LICENSE)   
 [![Dependency Status](https://david-dm.org/freakserv/cdn.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn) 
 [![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)   
