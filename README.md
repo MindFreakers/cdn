@@ -1,5 +1,5 @@
 [![Atom v1.0](http://img.shields.io/badge/Atom-v1.0-brightgreen.svg)](https://cdn.mindfreakers.net/?atom=1.0)
-[![FreakCDN v2.0](http://img.shields.io/badge/FreakCDN-v2.0-brightgreen.svg)](https://cdn.mindfreakers.net/?v=2.0)   
+[![FreakCDN v2.1](http://img.shields.io/badge/FreakCDN-v2.1-brightgreen.svg)](https://cdn.mindfreakers.net/?v=2.0)   
 [![Build Status](https://travis-ci.org/freakserv/cdn.svg?branch=master)](https://travis-ci.org/freakserv/cdn)
 [![Local Build](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)   
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/freakserv/cdn/blob/master/MIT-LICENSE)   
@@ -9,7 +9,7 @@
 
 # FreakCDN Library Repository
 
-[FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://cdn.mindfreakers.net), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](http://www.mindfreakers.net). [Sagar Gulati](http://www.sagargulati.com) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
+[FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://cdn.mindfreakers.net), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](https://symlink.in/mfn). [Sagar Gulati](https://symlink.in/sagar) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
 
 # Libraries
 
@@ -19,7 +19,7 @@ We will host any production version of any library, subject to licence permissio
 
 ## Adding a new or updating an existing library
 
-FreakCDN relies on user-submitted requests and automatic updating via `npm` to populate and update libraries.
+FreakCDN relies on user-submitted requests at `sagar (at) mindfreakers (dot) net ` and automatic updating via `npm` to populate and update libraries.
 
 To add a new library, or update an existing library outside of `npm`, start by [forking the FreakCDN repo](https://github.com/freakserv/cdn/fork) to your own GitHub account and perform a submit request at [cdn.mindfreakers.net](https://cdn.mindfreakers.net/request/new)
 
@@ -28,14 +28,14 @@ To add/modify our libraries, we use nodejs. Please install `node` locally to use
 Libraries are stored in the `ajax/libs` directory. Each library has its own subdirectory of `ajax/libs` and each version of the library has its own subdirectory of the library directory name, for example:
 
 ```
-/ajax/libs/jquery/1.11.0/
+/ajax/libs/jquery/1.11.3/
 ```
 
 ## Google fonts and custom font libraries
 
-FreakCDN delivers google fonts library at a network of more than `1 Gbps (Gigabytes per second)` of speed. The fonts are hosted on google dedicated servers & are minified for public use at a much higher network speed. 
+FreakCDN delivers Google Fonts library at a uplink of  `1 GBPS (Gigabytes per second)` of speed. The fonts are hosted on google dedicated servers & are minified for public use at a much higher network speed. 
 
-FreakCDN also allows users to host there own library of fonts which will be delivered from [GitHub](https://github.com) network and [MindFreakers](http://go.c4u.in/mfn) network acting as a backbone server for each other with a speed of `10 Gbps (Gigabytes per second)`.
+FreakCDN also allows users to host there own library of fonts which will be delivered from [GitHub](https://github.com) network and [MindFreakers](https://symlink.in/mfn) network acting as a backbone server for each other with a speed of `10 Gbps (Gigabytes per second)`.
 
 Fonts are stored in the `fonts/libraries` directory. Each font has its own subdirectory of `fonts/libraries`, for example:
 
@@ -43,7 +43,7 @@ Fonts are stored in the `fonts/libraries` directory. Each font has its own subdi
 /fonts/libraries/Becker Medium/
 ```
 
-_Note_: Note that you need to provide us with:
+_Note_: Note that you need to provide us with all the below font types:
 * `.ttf ('truetype')`,
 * `.eot ('embedded-opentype')`,
 * `.woff ('woff')`,
@@ -86,24 +86,24 @@ You should consider the following when _requesting a new library_:
 
 FreakCDN allows users to synchronize their website content with FreakCDN. This means, users can host their data on FreakCDN which herein, can be available for public use also.
 
-The content(s) of the website(s) are hosted on [GitHub](https://github.com) network as well as [MindFreakers](http://go.c4u.in/mfn) servers for the user(s) to deliver it to their website.
+The content(s) of the website(s) are hosted on [GitHub](https://github.com) network as well as [MindFreakers](https://symlink.in/mfn) servers for the user(s) to deliver it to their website.
 
-The content(s) of the website(s) are stored in the `assets/sites` directory. Each site has its own subdirectory of `assets/sites` and each content of the sites has its own subdirectory of the website directory name, for example:
+The content(s) of the website(s) are stored in the `sites` directory. Each site has its own subdirectory of `assets` and each content of the sites has its own subdirectory of the website directory name, for example:
 
 ```
-/assets/sites/www.mindfreakers.net/   
-/assets/sites/www.mindfreakers.net/images/   
-/assets/sites/www.mindfreakers.net/scripts/   
-/assets/sites/www.mindfreakers.net/css/
+/sites/www.mindfreakers.net/   
+/sites/www.mindfreakers.net/assets/images/   
+/sites/www.mindfreakers.net/assets/scripts/   
+/sites/www.mindfreakers.net/assets/css/
 ```
 
-## Random Features 
+## Quick Glance at Features 
 
-* Blazing Speed upto 1Gbps.
+* Blazing Speed upto 1GBPS dedicated network.
 * Powered by FreakServ Cloud Technology
-* Supports http:// & https:// with secure cast technology.
-* Google fonts and custom fonts library.
-* Support for images, css, media and much more.
+* Supports http:// & https:// with Secure Cast Technology.
+* Google Fonts and Custom Fonts Library.
+* Support for Images, CSS, Media and much more.
 * Predefined libraries including jQuery, modernizr, swfobject and more.
 * aSync data system protocol based on nodejs.
 

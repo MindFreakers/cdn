@@ -2,6 +2,7 @@
   "author": "Sagar Gulati (http://www.sagargulati.com)",
   "name": "FreakCDN",
   "tag": "Synchronize your content.",
+  "version": "2.1",
   "description": "A powerful content delivery network that operates on FreakServ Cloud Technology.",
   "homepage": "https://cdn.mindfreakers.net/",
   "repository": {
@@ -13,23 +14,23 @@
     "test": "vows"
   },
   "dependencies": {
-    "async": "~0.9.0",
-    "clean-css": "~3.0.3",
-    "colors": "~1.0.1",
+    "async": "~1.2.1",
+    "clean-css": "~3.3.3",
+    "colors": "~1.1.2",
     "execSync": "~1.0.2",
-    "fs-extra": "~0.16.3",
-    "glob": "~4.3.2",
-    "lodash": "~3.1.0",
+    "fs-extra": "~0.20.0",
+    "glob": "~5.0.10",
+    "lodash": "~3.9.3",
     "node-hipchat": "~0.4.5",
     "rss": "~1.1.1",
-    "superagent": "~0.21.0",
+    "superagent": "~1.2.0",
     "tarball-extract": "~0.0.3",
-    "uglify-js": "~2.4.15",
-    "underscore": "~1.7.0"
+    "uglify-js": "~2.4.23",
+    "underscore": "~1.8.3"
   },
   "devDependencies": {
-    "jslint": "~0.7.2",
     "JSV": "~4.0.2",
+    "jslint": "~0.9.0",
     "vows-si": "~0.7.1"
   },
   "optionalDependencies": {},
