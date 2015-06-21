@@ -9,8 +9,7 @@
     "url": "git://github.com/freakserv/cdn.git"
   },
   "scripts": {
-    "build": "./build/build.js",
-    "test": "vows"
+    "build": "./build/build.js"
   },
   "dependencies": {
     "async": "~1.2.1",
