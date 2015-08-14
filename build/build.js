@@ -1,1 +1,1 @@
-console.log('FreakCDN v2.0 Establised!');
+console.log('FreakCDN v2.1 Establised!');
