@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* F O N T   F A C E */
+@font-face{font-family: 'WebRupee';src: url('WebRupee.V2.0.eot');src: local('WebRupee'), url('WebRupee.V2.0.ttf') format('truetype'),  url('WebRupee.V2.0.woff') format('woff'), url('WebRupee.V2.0.svg') format('svg'); font-weight:normal; font-style:normal;}
+.WebRupee { font-size:14px; font-family:'WebRupee';}
+html>body .WebRupee {margin-right:2px;}
+html>body .WebRupee {*margin-right:0;} 
+
+
+/* C O N T E N T */
+#container {width:500px; margin:50px auto;}
+
+
+/*
+TEST RESULTS
+============================================================
+Windows:	XP, Vista
+-----------------------------------------------------------
+Mozilla
+4.0(beta)	Fine
+3.5.0		Fine
+Below this version, Rs. will come instead of rupees sign.
+
+
+INTERNET EXPLORER
+6.0			Fine
+7.0			Fine
+8.0			Fine
+ 
+
+Chrome
+8.0			Fine
+7.0			Fine 
+6.0			Fine
+ 
+
+Opera
+10.61		Fine
+10.51		Fine
+10.10		Fine
+
+
+Safari
+5.0			Fine
+
+
+============================================================
+Linux:		CentOS, Ubuntu 9.04
+------------------------------------------------------------
+CentOS
+Mozilla 3.0		Rs. will come instead of rupees sign.
+
+
+Ubuntu 9.04	
+Mozilla 3.0.5	Rs. will come instead of rupees sign.
+*/

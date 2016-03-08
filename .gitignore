@@ -1,3 +1,17 @@
+ajax/.FreakCDN/
+ajax/.h5ai/
+ajax/.htaccess
+archive/
+assets/
+fonts/
+media/.Media/
+media/fonts/isValid.php
+media/.htaccess
+request/
 .gitignore
+.htaccess
 .npmignore
+.travis.yml
+index.php
+NoJS.php
 token
