@@ -33,14 +33,14 @@ Libraries are stored in the `ajax/libs` directory. Each library has its own subd
 
 ## Google fonts and custom font libraries
 
-FreakCDN delivers Google Fonts library at a uplink of  `1 GBPS (Gigabytes per second)` of speed. The fonts are hosted on google dedicated servers & are minified for public use at a much higher network speed. 
+FreakCDN delivers Google Fonts library at a uplink of  `10 GBPS (Gigabytes per second)` of speed. The fonts are hosted on google dedicated servers & are minified for public use at a much higher network speed. 
 
 FreakCDN also allows users to host there own library of fonts which will be delivered from [GitHub](https://github.com) network and [MindFreakers](https://symlink.in/mfn) network acting as a backbone server for each other with a speed of `10 Gbps (Gigabytes per second)`.
 
 Fonts are stored in the `fonts/libraries` directory. Each font has its own subdirectory of `fonts/libraries`, for example:
 
 ```
-/fonts/libraries/Becker Medium/
+/media/fonts/libraries/Becker Medium/
 ```
 
 _Note_: Note that you need to provide us with all the below font types:
@@ -99,7 +99,7 @@ The content(s) of the website(s) are stored in the `sites` directory. Each site 
 
 ## Quick Glance at Features 
 
-* Blazing Speed upto 1GBPS dedicated network.
+* Blazing Speed upto 10GBPS dedicated network.
 * Powered by FreakServ Cloud Technology
 * Supports http:// & https:// with Secure Cast Technology.
 * Google Fonts and Custom Fonts Library.
