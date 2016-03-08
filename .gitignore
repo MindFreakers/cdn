@@ -8,10 +8,10 @@
 /media/fonts/isValid.php
 /media/.htaccess
 /request/
+!.gitignore
 .gitignore
 .htaccess
 .npmignore
 .travis.yml
 index.php
 NoJS.php
-\\.*
