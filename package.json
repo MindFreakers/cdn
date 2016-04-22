@@ -1,5 +1,5 @@
 {
-  "author": "Sagar Gulati (http://www.sagargulati.com)",
+  "author": "Sagar Gulati (http://sagargulati.com)",
   "name": "FreakCDN",
   "tag": "Synchronize your content.",
   "description": "A powerful content delivery network that operates on FreakServ Cloud Technology.",
@@ -16,9 +16,9 @@
     "clean-css": "~3.4.10",
     "colors": "~1.1.2",
     "execSync": "~1.0.2",
-    "fs-extra": "~0.26.5",
+    "fs-extra": "~0.28.0",
     "glob": "~7.0.3",
-    "lodash": "~4.9.0",
+    "lodash": "~4.11.1",
     "node-hipchat": "~0.4.5",
     "rss": "~1.2.1",
     "superagent": "~1.8.0",
