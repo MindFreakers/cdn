@@ -1,6 +1,7 @@
 {
   "author": "Sagar Gulati (http://sagargulati.com)",
   "name": "FreakCDN",
+  "license": "SEE LICENSE IN README.md",
   "tag": "Synchronize your content.",
   "description": "A powerful content delivery network that operates on FreakServ Cloud Technology.",
   "homepage": "https://cdn.mindfreakers.net/",
