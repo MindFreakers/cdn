@@ -13,23 +13,23 @@
     "build": "./build/build.js"
   },
   "dependencies": {
-    "async": "~1.5.2",
+    "async": "~2.0.1",
     "clean-css": "~3.4.18",
     "colors": "~1.1.2",
     "execSync": "~1.0.2",
     "fs-extra": "~0.30.0",
     "glob": "~7.0.5",
-    "lodash": "~4.13.1",
+    "lodash": "~4.14.2",
     "node-hipchat": "~0.4.5",
     "rss": "~1.2.1",
-    "superagent": "~2.0.0",
+    "superagent": "~2.1.0",
     "tarball-extract": "~0.0.3",
-    "uglify-js": "~2.6.2",
+    "uglify-js": "~2.7.0",
     "underscore": "~1.8.3"
   },
   "devDependencies": {
     "JSV": "~4.0.2",
-    "jslint": "~0.10.1",
+    "jslint": "~0.10.3",
     "vows-si": "~0.7.1"
   },
   "optionalDependencies": {},
