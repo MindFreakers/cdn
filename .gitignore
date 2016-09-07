@@ -1,5 +1,5 @@
-/var/www/cdn/ajax/_*
-/ajax/_FreakCDN/
+!/ajax/_FreakCDN
+/ajax/_FreakCDN
 /ajax/.*
 /ajax/_*
 /archive/
@@ -9,6 +9,8 @@
 /media/fonts/isValid.php
 /media/.htaccess
 /request/
+!.gitignore
+.gitignore
 .htaccess
 .npmignore
 .travis.yml
