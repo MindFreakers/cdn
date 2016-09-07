@@ -1,0 +1,16 @@
+/var/www/cdn/ajax/_*
+/ajax/_FreakCDN/
+/ajax/.*
+/ajax/_*
+/archive/
+/assets/
+/fonts/
+/media/.Media/
+/media/fonts/isValid.php
+/media/.htaccess
+/request/
+.htaccess
+.npmignore
+.travis.yml
+index.php
+NoJS.php
