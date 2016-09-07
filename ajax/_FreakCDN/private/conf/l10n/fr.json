@@ -1,0 +1,18 @@
+{
+    "lang": "français",
+
+    "dateFormat": "DD/MM/YYYY HH:mm",
+    "details": "détails",
+    "download": "télécharger",
+    "empty": "vide",
+    "files": "Fichiers",
+    "filter": "filtre",
+    "folders": "Répertoires",
+    "grid": "grille",
+    "icons": "icônes",
+    "lastModified": "Dernière modification",
+    "name": "Nom",
+    "noMatch": "rien trouvé",
+    "parentDirectory": "Dossier parent",
+    "size": "Taille"
+}
