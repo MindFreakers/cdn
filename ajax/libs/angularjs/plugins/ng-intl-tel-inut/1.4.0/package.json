@@ -1,0 +1,61 @@
+{
+  "name": "ng-intl-tel-input",
+  "version": "1.4.0",
+  "description": "AngularJS directive implementing intl-tel-input (https://github.com/Bluefieldscom/intl-tel-input)",
+  "main": "dist/ng-intl-tel-input.js",
+  "scripts": {
+    "test": "npm run jshint && npm run karma",
+    "build": "npm run concat && npm run uglify",
+    "start": "nohup http-server",
+    "jshint": "jshint .",
+    "karma": "karma start karma.conf.js",
+    "concat": "node ./node_modules/concat-cli/index.js -f ng-intl-tel-input.{module,provider,directive}.js -o dist/ng-intl-tel-input.js",
+    "uglify": "uglify -s dist/ng-intl-tel-input.js -o dist/ng-intl-tel-input.min.js",
+    "webdriver-update": "webdriver-manager update",
+    "protractor": "protractor protractor.conf.js",
+    "mversion": "mversion "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hodgepodgers/ng-intl-tel-input.git"
+  },
+  "keywords": [
+    "ng-intl-tel-input",
+    "intl-tel-input",
+    "international",
+    "telephone",
+    "validator",
+    "angularjs"
+  ],
+  "author": "bighappyface <anomalous20@gmail.com>",
+  "contributors": [
+    {
+      "name": "SyntaxStacks <johnbobsexipants@gmail.com>"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hodgepodgers/ng-intl-tel-input/issues"
+  },
+  "homepage": "http://hodgepodgers.github.io/ng-intl-tel-input",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "concat-cli": "^1.0.1",
+    "http-server": "^0.8.0",
+    "jasmine-core": "^2.3.4",
+    "jshint": "2.8.0",
+    "karma": "^0.13.6",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sinon": "^1.0.4",
+    "mocha": "^2.2.5",
+    "mversion": "^1.10.0",
+    "phantomjs": "^1.9.17",
+    "protractor": "~2.4.0",
+    "sinon": "^1.15.4",
+    "uglify": "^0.1.5"
+  }
+}

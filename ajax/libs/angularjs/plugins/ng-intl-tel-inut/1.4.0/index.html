@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html ng-app="ngIntlTelInputApp">
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ng-intel-tel-input example page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/intl-tel-input/build/css/intlTelInput.css">
+  <style>
+    /*
+     * @see https://github.com/Bluefieldscom/intl-tel-input#troubleshooting
+     */
+    .intl-tel-input {
+      display: table-cell;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="page-header">
+    <h1>ng-intel-tel-input examples</h1>
+
+    <p class="lead">This is a basic demonstration page showcasing the ng-intl-tel-input directive.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Basic usage</h2>
+
+      <div class="well">
+        <code>&lt;input type=&quot;text&quot; name=&quot;tel&quot; ng-model=&quot;tel&quot; ng-intl-tel-input&gt;</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <form name="form">
+        <div class="form-group" ng-class="{'has-error': form.tel.$invalid && form.tel.$touched, 'has-success': form.tel.$valid}">
+          <label for="tel">Telephone number</label>
+          <input type="text" class="form-control" id="tel" name="tel" ng-model="tel" ng-intl-tel-input>
+          <span class="help-block" ng-show="form.tel.$pristine && form.tel.$untouched">Please type a telephone number</span>
+          <span class="help-block" ng-show="form.tel.$invalid && form.tel.$touched">Invalid :(</span>
+          <span class="help-block" ng-show="form.tel.$valid">Valid :)</span>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Model value</strong></p>
+      <blockquote>{{tel}}<span ng-if="!tel">N/A</span></blockquote>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Setting default country with <code>data-default-country</code></h2>
+
+      <div class="well">
+        <code>&lt;input type=&quot;text&quot; name=&quot;tel&quot; ng-model=&quot;tel&quot; ng-intl-tel-input data-default-country=&quot;gb&quot;&gt;</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <form name="form2">
+        <div class="form-group" ng-class="{'has-error': form2.tel.$invalid && form2.tel.$touched, 'has-success': form2.tel.$valid}">
+          <label for="tel">Telephone number</label>
+          <input type="text" class="form-control" id="tel-dc" name="tel" ng-model="tel2" ng-intl-tel-input data-default-country='gb'>
+          <span class="help-block" ng-show="form2.tel.$pristine && form2.tel.$untouched">Please type a telephone number</span>
+          <span class="help-block" ng-show="form2.tel.$invalid && form2.tel.$touched">Invalid :(</span>
+          <span class="help-block" ng-show="form2.tel.$valid">Valid :)</span>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Model value</strong></p>
+      <blockquote>{{tel2}}<span ng-if="!tel2">N/A</span></blockquote>
+    </div>
+  </div>
+
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angularjs/angular.js"></script>
+<script src="bower_components/intl-tel-input/build/js/intlTelInput.js"></script>
+<script src="bower_components/intl-tel-input/lib/libphonenumber/build/utils.js"></script>
+<script src="ng-intl-tel-input.module.js"></script>
+<script src="ng-intl-tel-input.provider.js"></script>
+<script src="ng-intl-tel-input.directive.js"></script>
+<script>
+  var ngIntlTelInputApp = angular.module('ngIntlTelInputApp', ['ngIntlTelInput'])
+      .config(function (ngIntlTelInputProvider) {
+        ngIntlTelInputProvider.set({defaultCountry: 'us'});
+      });
+</script>
+
+</body>
+</html>
