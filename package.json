@@ -7,7 +7,7 @@
   "homepage": "https://cdn.mindfreakers.net/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/freakserv/cdn.git"
+    "url": "git://github.com/MindFreakers/cdn.git"
   },
   "scripts": {
     "build": "./build/build.js"
