@@ -1,15 +1,15 @@
 [![Atom v1.0](http://img.shields.io/badge/Atom-v1.0-blue.svg)](https://cdn.mindfreakers.net/?atom=1.0)
 [![FreakCDN v2.0](http://img.shields.io/badge/FreakCDN-v2.0-blue.svg)](https://cdn.mindfreakers.net/?v=2.0)   
-[![Build Status](https://travis-ci.org/freakserv/cdn.svg?branch=master)](https://travis-ci.org/freakserv/cdn)
+[![Build Status](https://travis-ci.org/MindFreakers/cdn.svg?branch=master)](https://travis-ci.org/MindFreakers/cdn)
 [![Local Build](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)](https://developers.mindfreakers.net/tools/build/?test=dependencies&branch=cdn)   
-[![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/freakserv/cdn/blob/master/MIT-LICENSE)   
-[![Dependency Status](https://david-dm.org/freakserv/cdn.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn) 
-[![devDependency Status](https://david-dm.org/freakserv/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/freakserv/cdn#info=devDependencies)   
-[![Gitter chat](https://badges.gitter.im/freakserv/cdn.svg)](https://gitter.im/freakserv/cdn)
+[![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/MindFreakers/cdn/blob/master/MIT-LICENSE)   
+[![Dependency Status](https://david-dm.org/MindFreakers/cdn.svg?theme=shields.io)](https://david-dm.org/MindFreakers/cdn) 
+[![devDependency Status](https://david-dm.org/MindFreakers/cdn/dev-status.svg?theme=shields.io)](https://david-dm.org/MindFreakers/cdn#info=devDependencies)   
+[![Gitter chat](https://badges.gitter.im/MindFreakers/cdn.svg)](https://gitter.im/MindFreakers/cdn)
 
 # FreakCDN Library Repository
 
-[FreakCDN](http://github.com/freakserv/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://cdn.mindfreakers.net), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](https://symlink.in/mfn). [Sagar Gulati](https://symlink.in/sagar) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
+[FreakCDN](http://github.com/MindFreakers/cdn) is the repository mirroring all library assets on [cdn.mindfreakers.net](http://cdn.mindfreakers.net), a powerful content delivery network powered by FreakServ Cloud Technlogy & maintained by [MindFreakers Networking](https://symlink.in/mfn). [Sagar Gulati](https://symlink.in/sagar) and [Venkateswaran Selvan](https://twitter.com/MailMeVenkat25) are the developers of FreakCDN.
 
 # Libraries
 
@@ -21,7 +21,7 @@ We will host any production version of any library, subject to licence permissio
 
 FreakCDN relies on user-submitted requests at `sagar (at) mindfreakers (dot) net ` and automatic updating via `npm` to populate and update libraries.
 
-To add a new library, or update an existing library outside of `npm`, start by [forking the FreakCDN repo](https://github.com/freakserv/cdn/fork) to your own GitHub account and perform a submit request at [cdn.mindfreakers.net](https://cdn.mindfreakers.net/request/new)
+To add a new library, or update an existing library outside of `npm`, start by [forking the FreakCDN repo](https://github.com/MindFreakers/cdn/fork) to your own GitHub account and perform a submit request at [cdn.mindfreakers.net](https://cdn.mindfreakers.net/request/new)
 
 To add/modify our libraries, we use nodejs. Please install `node` locally to use our cdn. For more information on installing `node`, please refer to [nodejs.org](http://nodejs.org).
 
