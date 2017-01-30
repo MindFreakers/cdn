@@ -1,0 +1,18 @@
+{
+    "lang": "polski",
+
+    "dateFormat": "YYYY-MM-DD HH:mm",
+    "details": "szczegóły",
+    "download": "pobierz",
+    "empty": "pusty",
+    "files": "plików",
+    "filter": "filtr",
+    "folders": "folderów",
+    "grid": "kafelki",
+    "icons": "ikony",
+    "lastModified": "Ostatnia modyfikacja",
+    "name": "Nazwa",
+    "noMatch": "nie znaleziono",
+    "parentDirectory": "Katalog nadrzędny",
+    "size": "Rozmiar"
+}
