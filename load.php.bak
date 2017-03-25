@@ -1,0 +1,35 @@
+<?php
+$host = "62.210.16.15";
+$port = 18255;
+$user = "mfn_admin";
+$pass = "n929x@@#!%s22)";
+$base = "mfn_cdn";
+$cdn  = array();
+
+try {
+ $db = new PDO("mysql:host=$host:$port;dbname=$base", $user, $pass);
+ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+ $cdn['status'] = 'ok';
+ $cdn['dbaas']  = 'true';
+} catch (PDOException $e) {
+ echo $e->getMessage();
+ $cdn['status'] = 'error';
+ $cdn['dbaas']  = 'false';
+}
+if (!isset($_SERVER['HTTP_REFERER'])) {
+ $cdn['host']   = $_SERVER['HTTP_HOST'];
+} else {
+ $ref   = $_SERVER['HTTP_REFERER'];
+ $parse = parse_url($ref);
+ $cdn['host']   = $parse['host'];
+}
+//header('Content-Type: application/json');
+//echo json_encode($cdn, JSON_PRETTY_PRINT);
+header('Content-Type: application/x-javascript');
+?>
+var CDN = {
+ _status: '<?php echo $cdn['status']; ?>',
+ _dbaas: <?php echo $cdn['dbaas']; ?>,
+ _host: '<?php echo $cdn['host']; ?>',
+}
+/* Load all javascripts via this, defines in admin panel */
